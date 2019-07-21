@@ -16,21 +16,31 @@ Steps:
 https://github.com/riyazinteractive/NyTimes.git
 
 2) Run npm install or yarn using command line from project directory
+    
+    
     npm install 
     or
     yarn 
 
 3) After successful node modules are downloaded run below command to link react-native-vector-icons package only
+    
+    
     react-native link react-native-vector-icons
 
 4) Run below command to start the package server
+    
+    
     react-native start 
 
 ANDROID 
 5a) To run application on android 
+    
+    
     react-native run-android
 iOS
 5b) To run application on iOS 
+    
+    
     react-native run-ios
 
 Alertnate way, to application on iOS 
@@ -40,5 +50,3 @@ open 'NYTimes.xcworkspace' file in XCode application
 Build (Cmd+B) and Run (Cmd+R)
 
 Incase of any issues, for setup or execution of project. Please mail to 'riyazinteractive@gmail.com'
-
-Thanks
