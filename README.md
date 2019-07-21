@@ -14,13 +14,13 @@ https://facebook.github.io/react-native/docs/getting-started.html
 
 Steps: 
 
-1) Clone project or download from the below url 
+1) Clone project or download from the url 
 https://github.com/riyazinteractive/NyTimes.git
 
 2) Run npm install or yarn using command line from project directory
     
     
-    
+
     npm install 
     
     or
@@ -33,18 +33,27 @@ https://github.com/riyazinteractive/NyTimes.git
     
     react-native link react-native-vector-icons
 
-4) Run below command to start the package server
+4) Go to ios folder and perform pod installation
+
+    
+    cd ios
+
+
+    pod install
+
+
+5) Run below command to start the package server from project directory
     
     
     react-native start 
 
 ANDROID 
-5a) To run application on android 
+6a) To run application on android from project directory
     
     
     react-native run-android
 iOS 
-5b) To run application on iOS (Applicable only for Mac users)
+6b) To run application on iOS from project directory (Applicable only for Mac users)
     
     
     react-native run-ios
@@ -57,5 +66,5 @@ go to ios folder,
 open 'NYTimes.xcworkspace' file in XCode application 
 Build (Cmd+B) and Run (Cmd+R)
 
-
-Incase of any issues, for setup or execution of project. Please mail to 'riyazinteractive@gmail.com'
+*Important*
+Please ensure android sdk path is added in PATH or local.properties of android sdk path.
