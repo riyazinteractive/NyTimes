@@ -8,6 +8,8 @@ TO Run this application below are the steps to be followed:
 
 Pre-requisities: 
 react-native-cli should be installed on your system. If not please follow React-Native-Cli Quick start instructions from below.
+
+
 https://facebook.github.io/react-native/docs/getting-started.html
 
 Steps: 
@@ -18,8 +20,12 @@ https://github.com/riyazinteractive/NyTimes.git
 2) Run npm install or yarn using command line from project directory
     
     
+    
     npm install 
+    
     or
+    
+    
     yarn 
 
 3) After successful node modules are downloaded run below command to link react-native-vector-icons package only
