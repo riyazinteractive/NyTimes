@@ -37,16 +37,19 @@ ANDROID
     
     
     react-native run-android
-iOS
-5b) To run application on iOS 
+iOS 
+5b) To run application on iOS (Applicable only for Mac users)
     
     
     react-native run-ios
+
+Note*: For Mac users, if above command error out due to permission issue. Please use prefix sudo before each command.
 
 Alertnate way, to application on iOS 
 open project directory, 
 go to ios folder, 
 open 'NYTimes.xcworkspace' file in XCode application 
 Build (Cmd+B) and Run (Cmd+R)
+
 
 Incase of any issues, for setup or execution of project. Please mail to 'riyazinteractive@gmail.com'
